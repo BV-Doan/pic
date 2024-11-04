@@ -45,13 +45,13 @@ pip install requests selenium webdriver-manager
 1. Visit: Google Cloud Console
 2. Create a new project or use an existing project.
 3. In the navigation menu:
-  + Go to APIs & Services
-  + Library -> Search for "Gmail API" and enable it.
-  + OAuth consent screen -> Check the External box -> Click Create.
-  + Fill in the necessary information.
-  + In Scopes -> Click Add or Remove Scopes -> Add "https://www.googleapis.com/auth/gmail.send" and check the box -> Click Update.
-  + Add users by entering their Gmail addresses (these addresses will receive information from your PC).
-  + Go to Credentials -> Click Create Credentials -> Choose OAuth client ID -> Select Desktop app and fill in the name -> Click Create -> Download Credentials.json.
+    + Go to APIs & Services
+    + Library -> Search for "Gmail API" and enable it.
+    + OAuth consent screen -> Check the External box -> Click Create.
+    + Fill in the necessary information.
+    + In Scopes -> Click Add or Remove Scopes -> Add "https://www.googleapis.com/auth/gmail.send" and check the box -> Click Update.
+    + Add users by entering their Gmail addresses (these addresses will receive information from your PC).
+    + Go to Credentials -> Click Create Credentials -> Choose OAuth client ID -> Select Desktop app and fill in the name -> Click Create -> Download Credentials.json.
 4. After downloading, place Credentials.json in the same directory as main.py. Run main.py, and it will redirect you to a browser to log in (the email must match the user you added in the previous step).
 5. Change the website and receive mail in main.py.
 6. Done!
